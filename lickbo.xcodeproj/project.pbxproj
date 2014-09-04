@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90C8845719B6434200B29232 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8845619B6434200B29232 /* AppDelegate.swift */; };
+		90C8845919B6434200B29232 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8845819B6434200B29232 /* ViewController.swift */; };
+		90C8845C19B6434200B29232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90C8845A19B6434200B29232 /* Main.storyboard */; };
+		90C8845E19B6434200B29232 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90C8845D19B6434200B29232 /* Images.xcassets */; };
+		90C8846A19B6434200B29232 /* lickboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8846919B6434200B29232 /* lickboTests.swift */; };
+		90C8847419B6443600B29232 /* LcboClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8847319B6443600B29232 /* LcboClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90C8846419B6434200B29232 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 90C8844919B6434200B29232 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90C8845019B6434200B29232;
+			remoteInfo = lickbo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		90C8845119B6434200B29232 /* lickbo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lickbo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C8845519B6434200B29232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C8845619B6434200B29232 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90C8845819B6434200B29232 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90C8845B19B6434200B29232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90C8845D19B6434200B29232 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		90C8846319B6434200B29232 /* lickboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lickboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		90C8846819B6434200B29232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C8846919B6434200B29232 /* lickboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lickboTests.swift; sourceTree = "<group>"; };
+		90C8847319B6443600B29232 /* LcboClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LcboClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90C8844E19B6434200B29232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8846019B6434200B29232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90C8844819B6434200B29232 = {
+			isa = PBXGroup;
+			children = (
+				90C8845319B6434200B29232 /* lickbo */,
+				90C8846619B6434200B29232 /* lickboTests */,
+				90C8845219B6434200B29232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90C8845219B6434200B29232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90C8845119B6434200B29232 /* lickbo.app */,
+				90C8846319B6434200B29232 /* lickboTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90C8845319B6434200B29232 /* lickbo */ = {
+			isa = PBXGroup;
+			children = (
+				90C8845619B6434200B29232 /* AppDelegate.swift */,
+				90C8845819B6434200B29232 /* ViewController.swift */,
+				90C8845A19B6434200B29232 /* Main.storyboard */,
+				90C8845D19B6434200B29232 /* Images.xcassets */,
+				90C8845419B6434200B29232 /* Supporting Files */,
+				90C8847319B6443600B29232 /* LcboClient.swift */,
+			);
+			path = lickbo;
+			sourceTree = "<group>";
+		};
+		90C8845419B6434200B29232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90C8845519B6434200B29232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90C8846619B6434200B29232 /* lickboTests */ = {
+			isa = PBXGroup;
+			children = (
+				90C8846919B6434200B29232 /* lickboTests.swift */,
+				90C8846719B6434200B29232 /* Supporting Files */,
+			);
+			path = lickboTests;
+			sourceTree = "<group>";
+		};
+		90C8846719B6434200B29232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90C8846819B6434200B29232 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90C8845019B6434200B29232 /* lickbo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C8846D19B6434200B29232 /* Build configuration list for PBXNativeTarget "lickbo" */;
+			buildPhases = (
+				90C8844D19B6434200B29232 /* Sources */,
+				90C8844E19B6434200B29232 /* Frameworks */,
+				90C8844F19B6434200B29232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lickbo;
+			productName = lickbo;
+			productReference = 90C8845119B6434200B29232 /* lickbo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		90C8846219B6434200B29232 /* lickboTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90C8847019B6434200B29232 /* Build configuration list for PBXNativeTarget "lickboTests" */;
+			buildPhases = (
+				90C8845F19B6434200B29232 /* Sources */,
+				90C8846019B6434200B29232 /* Frameworks */,
+				90C8846119B6434200B29232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				90C8846519B6434200B29232 /* PBXTargetDependency */,
+			);
+			name = lickboTests;
+			productName = lickboTests;
+			productReference = 90C8846319B6434200B29232 /* lickboTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90C8844919B6434200B29232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Stephanie Emila";
+				TargetAttributes = {
+					90C8845019B6434200B29232 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					90C8846219B6434200B29232 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 90C8845019B6434200B29232;
+					};
+				};
+			};
+			buildConfigurationList = 90C8844C19B6434200B29232 /* Build configuration list for PBXProject "lickbo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90C8844819B6434200B29232;
+			productRefGroup = 90C8845219B6434200B29232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90C8845019B6434200B29232 /* lickbo */,
+				90C8846219B6434200B29232 /* lickboTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90C8844F19B6434200B29232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C8845C19B6434200B29232 /* Main.storyboard in Resources */,
+				90C8845E19B6434200B29232 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8846119B6434200B29232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90C8844D19B6434200B29232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C8847419B6443600B29232 /* LcboClient.swift in Sources */,
+				90C8845919B6434200B29232 /* ViewController.swift in Sources */,
+				90C8845719B6434200B29232 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90C8845F19B6434200B29232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90C8846A19B6434200B29232 /* lickboTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		90C8846519B6434200B29232 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 90C8845019B6434200B29232 /* lickbo */;
+			targetProxy = 90C8846419B6434200B29232 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		90C8845A19B6434200B29232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90C8845B19B6434200B29232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90C8846B19B6434200B29232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90C8846C19B6434200B29232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90C8846E19B6434200B29232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = lickbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90C8846F19B6434200B29232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = lickbo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		90C8847119B6434200B29232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = lickboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lickbo.app/lickbo";
+			};
+			name = Debug;
+		};
+		90C8847219B6434200B29232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = lickboTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lickbo.app/lickbo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90C8844C19B6434200B29232 /* Build configuration list for PBXProject "lickbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C8846B19B6434200B29232 /* Debug */,
+				90C8846C19B6434200B29232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90C8846D19B6434200B29232 /* Build configuration list for PBXNativeTarget "lickbo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C8846E19B6434200B29232 /* Debug */,
+				90C8846F19B6434200B29232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		90C8847019B6434200B29232 /* Build configuration list for PBXNativeTarget "lickboTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90C8847119B6434200B29232 /* Debug */,
+				90C8847219B6434200B29232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90C8844919B6434200B29232 /* Project object */;
+}
